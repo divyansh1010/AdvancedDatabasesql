@@ -1,0 +1,2 @@
+git remote add origin https://github.com/divyansh1010/Enterprise-Computing.git
+git push -u origin master

@@ -1,0 +1,328 @@
+Divyansh Sharma
+
+COMP3002: Section 02
+
+Midterm Version D
+
+Current System Date
+2018-03-07 19:37:04
+
+
+*** Question A1 [1 Point] ***
+
+
+
+*** Question A2 [2 Points] ***
+
+ROW_COUNT()
+1
+
+
+*** Question A3 [5 Points] ***
+
+client_id	client_name	contact_last	contact_first	contact_phone
+1	Crisco Systems	Martin	Andrew	5215557220
+2	Supreme Data Corporation	Martinez	Michelle	5205559821
+3	Lucid Technologies	Brown	Jack	7155552311
+4	Morningstar Bank	Wright	Linda	9215553320
+5	Maverick Petroleum	Miller	Tom	4085559822
+6	Birchwood Mall	Brenner	Nicole	7155550828
+605	Communitech	Sharma	Divyansh	NULL
+c_id	c_last	c_first	c_mi	c_add	c_city	c_state	c_zip	c_phone	c_email
+100	Myers	Mark	F	1383 Alexander Ave.	Eau Claire	WI	54703	7155559652	mmyers@swexpert.com
+101	Hernandez	Sheila	R	3227 Brian Street	Eau Claire	WI	54702	7155550282	shernandez@earthware.com
+102	Zhang	Brian	NULL	2227 Calumet Place	Altoona	WI	54720	7155558383	zhang@swexpert.com
+103	Carlson	Sarah	J	1334 Water Street	Eau Claire	WI	54703	7155558008	carlsons@swexpert.com
+104	Courtlandt	Paul	R	1911 Pine Drive	Eau Claire	WI	54701	7155555225	courtlpr@yamail.com
+105	Park	Janet	S	2333 157th Street	Chippewa Falls	WI	54712	7155554944	jpark@swexpert.com
+
+
+*** Question A4 [4 Points] ***
+
+c_first	c_last	p_id	project_name
+Mark	Myers	1	Hardware Support Intranet
+Mark	Myers	4	Teller Support System
+Mark	Myers	5	Internet Advertising
+Mark	Myers	7	Exploration Database
+Sheila	Hernandez	1	Hardware Support Intranet
+Sheila	Hernandez	4	Teller Support System
+Sheila	Hernandez	5	Internet Advertising
+Sheila	Hernandez	7	Exploration Database
+Brian	Zhang	1	Hardware Support Intranet
+Brian	Zhang	4	Teller Support System
+Brian	Zhang	5	Internet Advertising
+Brian	Zhang	7	Exploration Database
+Sarah	Carlson	1	Hardware Support Intranet
+Sarah	Carlson	4	Teller Support System
+Sarah	Carlson	5	Internet Advertising
+Sarah	Carlson	7	Exploration Database
+Paul	Courtlandt	1	Hardware Support Intranet
+Paul	Courtlandt	4	Teller Support System
+Paul	Courtlandt	5	Internet Advertising
+Paul	Courtlandt	7	Exploration Database
+Janet	Park	1	Hardware Support Intranet
+Janet	Park	4	Teller Support System
+Janet	Park	5	Internet Advertising
+Janet	Park	7	Exploration Database
+
+
+*** Question A5 [5 Points] ***
+
+mm-yyyy	mm-yyyy	p_id	project_name	c_id	c_last
+01-2011	06-2011	1	Hardware Support Intranet	100	Myers
+01-2011	06-2011	1	Hardware Support Intranet	101	Hernandez
+01-2011	06-2011	1	Hardware Support Intranet	102	Zhang
+01-2011	06-2011	1	Hardware Support Intranet	103	Carlson
+01-2011	06-2011	1	Hardware Support Intranet	104	Courtlandt
+01-2011	06-2011	1	Hardware Support Intranet	105	Park
+01-2011	06-2011	2	Hardware Support Interface	100	Myers
+01-2011	06-2011	2	Hardware Support Interface	101	Hernandez
+01-2011	06-2011	2	Hardware Support Interface	102	Zhang
+01-2011	06-2011	2	Hardware Support Interface	103	Carlson
+01-2011	06-2011	2	Hardware Support Interface	104	Courtlandt
+01-2011	06-2011	2	Hardware Support Interface	105	Park
+01-2011	06-2011	3	Hardware Support Database	100	Myers
+01-2011	06-2011	3	Hardware Support Database	101	Hernandez
+01-2011	06-2011	3	Hardware Support Database	102	Zhang
+01-2011	06-2011	3	Hardware Support Database	103	Carlson
+01-2011	06-2011	3	Hardware Support Database	104	Courtlandt
+01-2011	06-2011	3	Hardware Support Database	105	Park
+01-2011	06-2011	4	Teller Support System	100	Myers
+01-2011	06-2011	4	Teller Support System	101	Hernandez
+01-2011	06-2011	4	Teller Support System	102	Zhang
+01-2011	06-2011	4	Teller Support System	103	Carlson
+01-2011	06-2011	4	Teller Support System	104	Courtlandt
+01-2011	06-2011	4	Teller Support System	105	Park
+01-2011	06-2011	5	Internet Advertising	100	Myers
+01-2011	06-2011	5	Internet Advertising	101	Hernandez
+01-2011	06-2011	5	Internet Advertising	102	Zhang
+01-2011	06-2011	5	Internet Advertising	103	Carlson
+01-2011	06-2011	5	Internet Advertising	104	Courtlandt
+01-2011	06-2011	5	Internet Advertising	105	Park
+01-2011	06-2011	6	Network Design	100	Myers
+01-2011	06-2011	6	Network Design	101	Hernandez
+01-2011	06-2011	6	Network Design	102	Zhang
+01-2011	06-2011	6	Network Design	103	Carlson
+01-2011	06-2011	6	Network Design	104	Courtlandt
+01-2011	06-2011	6	Network Design	105	Park
+01-2011	06-2011	7	Exploration Database	100	Myers
+01-2011	06-2011	7	Exploration Database	101	Hernandez
+01-2011	06-2011	7	Exploration Database	102	Zhang
+01-2011	06-2011	7	Exploration Database	103	Carlson
+01-2011	06-2011	7	Exploration Database	104	Courtlandt
+01-2011	06-2011	7	Exploration Database	105	Park
+07-2011	09-2011	1	Hardware Support Intranet	100	Myers
+07-2011	09-2011	1	Hardware Support Intranet	101	Hernandez
+07-2011	09-2011	1	Hardware Support Intranet	102	Zhang
+07-2011	09-2011	1	Hardware Support Intranet	103	Carlson
+07-2011	09-2011	1	Hardware Support Intranet	104	Courtlandt
+07-2011	09-2011	1	Hardware Support Intranet	105	Park
+07-2011	09-2011	2	Hardware Support Interface	100	Myers
+07-2011	09-2011	2	Hardware Support Interface	101	Hernandez
+07-2011	09-2011	2	Hardware Support Interface	102	Zhang
+07-2011	09-2011	2	Hardware Support Interface	103	Carlson
+07-2011	09-2011	2	Hardware Support Interface	104	Courtlandt
+07-2011	09-2011	2	Hardware Support Interface	105	Park
+07-2011	09-2011	3	Hardware Support Database	100	Myers
+07-2011	09-2011	3	Hardware Support Database	101	Hernandez
+07-2011	09-2011	3	Hardware Support Database	102	Zhang
+07-2011	09-2011	3	Hardware Support Database	103	Carlson
+07-2011	09-2011	3	Hardware Support Database	104	Courtlandt
+07-2011	09-2011	3	Hardware Support Database	105	Park
+07-2011	09-2011	4	Teller Support System	100	Myers
+07-2011	09-2011	4	Teller Support System	101	Hernandez
+07-2011	09-2011	4	Teller Support System	102	Zhang
+07-2011	09-2011	4	Teller Support System	103	Carlson
+07-2011	09-2011	4	Teller Support System	104	Courtlandt
+07-2011	09-2011	4	Teller Support System	105	Park
+07-2011	09-2011	5	Internet Advertising	100	Myers
+07-2011	09-2011	5	Internet Advertising	101	Hernandez
+07-2011	09-2011	5	Internet Advertising	102	Zhang
+07-2011	09-2011	5	Internet Advertising	103	Carlson
+07-2011	09-2011	5	Internet Advertising	104	Courtlandt
+07-2011	09-2011	5	Internet Advertising	105	Park
+07-2011	09-2011	6	Network Design	100	Myers
+07-2011	09-2011	6	Network Design	101	Hernandez
+07-2011	09-2011	6	Network Design	102	Zhang
+07-2011	09-2011	6	Network Design	103	Carlson
+07-2011	09-2011	6	Network Design	104	Courtlandt
+07-2011	09-2011	6	Network Design	105	Park
+07-2011	09-2011	7	Exploration Database	100	Myers
+07-2011	09-2011	7	Exploration Database	101	Hernandez
+07-2011	09-2011	7	Exploration Database	102	Zhang
+07-2011	09-2011	7	Exploration Database	103	Carlson
+07-2011	09-2011	7	Exploration Database	104	Courtlandt
+07-2011	09-2011	7	Exploration Database	105	Park
+07-2011	09-2011	1	Hardware Support Intranet	100	Myers
+07-2011	09-2011	1	Hardware Support Intranet	101	Hernandez
+07-2011	09-2011	1	Hardware Support Intranet	102	Zhang
+07-2011	09-2011	1	Hardware Support Intranet	103	Carlson
+07-2011	09-2011	1	Hardware Support Intranet	104	Courtlandt
+07-2011	09-2011	1	Hardware Support Intranet	105	Park
+07-2011	09-2011	2	Hardware Support Interface	100	Myers
+07-2011	09-2011	2	Hardware Support Interface	101	Hernandez
+07-2011	09-2011	2	Hardware Support Interface	102	Zhang
+07-2011	09-2011	2	Hardware Support Interface	103	Carlson
+07-2011	09-2011	2	Hardware Support Interface	104	Courtlandt
+07-2011	09-2011	2	Hardware Support Interface	105	Park
+07-2011	09-2011	3	Hardware Support Database	100	Myers
+07-2011	09-2011	3	Hardware Support Database	101	Hernandez
+07-2011	09-2011	3	Hardware Support Database	102	Zhang
+07-2011	09-2011	3	Hardware Support Database	103	Carlson
+07-2011	09-2011	3	Hardware Support Database	104	Courtlandt
+07-2011	09-2011	3	Hardware Support Database	105	Park
+07-2011	09-2011	4	Teller Support System	100	Myers
+07-2011	09-2011	4	Teller Support System	101	Hernandez
+07-2011	09-2011	4	Teller Support System	102	Zhang
+07-2011	09-2011	4	Teller Support System	103	Carlson
+07-2011	09-2011	4	Teller Support System	104	Courtlandt
+07-2011	09-2011	4	Teller Support System	105	Park
+07-2011	09-2011	5	Internet Advertising	100	Myers
+07-2011	09-2011	5	Internet Advertising	101	Hernandez
+07-2011	09-2011	5	Internet Advertising	102	Zhang
+07-2011	09-2011	5	Internet Advertising	103	Carlson
+07-2011	09-2011	5	Internet Advertising	104	Courtlandt
+07-2011	09-2011	5	Internet Advertising	105	Park
+07-2011	09-2011	6	Network Design	100	Myers
+07-2011	09-2011	6	Network Design	101	Hernandez
+07-2011	09-2011	6	Network Design	102	Zhang
+07-2011	09-2011	6	Network Design	103	Carlson
+07-2011	09-2011	6	Network Design	104	Courtlandt
+07-2011	09-2011	6	Network Design	105	Park
+07-2011	09-2011	7	Exploration Database	100	Myers
+07-2011	09-2011	7	Exploration Database	101	Hernandez
+07-2011	09-2011	7	Exploration Database	102	Zhang
+07-2011	09-2011	7	Exploration Database	103	Carlson
+07-2011	09-2011	7	Exploration Database	104	Courtlandt
+07-2011	09-2011	7	Exploration Database	105	Park
+ROW_COUNT()
+-1
+
+
+*** Question A6 [1 Point] ***
+
+ROW_COUNT()
+1
+
+
+*** Question B1 [1 Point]***
+
+
+
+*** Question B2 [4 Points] ***
+
+order_id	ship_amount	card_type	card_number	card_expires
+4	5.00	American Express	378282246310005	04/2016
+6	5.00	Discover	6011111111111117	04/2019
+7	15.00	MasterCard	5555555555554444	04/2019
+2	5.00	Visa	4012888888881881	08/2019
+ROW_COUNT()
+-1
+
+
+***  Question B3 [2 Points] ***
+
+product_id	product_name	description
+7	Fender Precision	The Fender Precision bass guitar delivers the sound, look, and feel today's bass players demand. This bass features that classic P-Bass old-school design. Each Precision bass boasts contemporary features and refinements that make it an excellent value. Featuring an alder body and a split single-coil pickup, this classic electric bass guitar lives up to its Fender legacy.\n\nFeatures:\n\n* Body: Alder\n* Neck: Maple, modern C shape, tinted satin urethane finish\n* Fingerboard: Rosewood or maple (depending on color)\n* 9-1/2" Radius (241 mm)\n* Frets: 20 Medium-jumbo frets\n* Pickups: 1 Standard Precision Bass split single-coil pickup (Mid)\n* Controls: Volume, Tone\n* Bridge: Standard vintage style with single groove saddles\n* Machine heads: Standard\n* Hardware: Chrome\n* Pickguard: 3-Ply Parchment\n* Scale Length: 34" (864 mm)\n* Width at Nut: 1-5/8" (41.3 mm)\n* Unique features: Knurled chrome P Bass knobs, Fender transition logo
+8	Hofner Icon	With authentic details inspired by the original, the Hofner Icon makes the legendary violin bass available to the rest of us. Don't get the idea that this a just a "nowhere man" look-alike. This quality instrument features a real spruce top and beautiful flamed maple back and sides. The semi-hollow body and set neck will give you the warm, round tone you expect from the violin bass.\n\nFeatures:\n\n* Authentic details inspired by the original\n* Spruce top\n* Flamed maple back and sides\n* Set neck\n* Rosewood fretboard\n* 30" scale\n* 22 frets\n* Dot inlay
+9	Ludwig 5-piece Drum Set with Cymbals	This product includes a Ludwig 5-piece drum set and a Zildjian starter cymbal pack.\n\nWith the Ludwig drum set, you get famous Ludwig quality. This set features a bass drum, two toms, a floor tom, and a snare?each with a wrapped finish. Drum hardware includes LA214FP bass pedal, snare stand, cymbal stand, hi-hat stand, and a throne.\n\nWith the Zildjian cymbal pack, you get a 14" crash, 18" crash/ride, and a pair of 13" hi-hats. Sound grooves and round hammer strikes in a simple circular pattern on the top surface of these cymbals magnify the basic sound of the distinctive alloy.\n\nFeatures:\n\n* Famous Ludwig quality\n* Wrapped finishes\n* 22" x 16" kick drum\n* 12" x 10" and 13" x 11" toms\n* 16" x 16" floor tom\n* 14" x 6-1/2" snare drum kick pedal\n* Snare stand\n* Straight cymbal stand hi-hat stand\n* FREE throne
+10	Tama 5-Piece Drum Set with Cymbals	The Tama 5-piece Drum Set is the most affordable Tama drum kit ever to incorporate so many high-end features.\n\nWith over 40 years of experience, Tama knows what drummers really want. Which is why, no matter how long you've been playing the drums, no matter what budget you have to work with, Tama has the set you need, want, and can afford. Every aspect of the modern drum kit was exhaustively examined and reexamined and then improved before it was accepted as part of the Tama design. Which is why, if you start playing Tama now as a beginner, you'll still enjoy playing it when you've achieved pro-status. That's how good these groundbreaking new drums are.\n\nOnly Tama comes with a complete set of genuine Meinl HCS cymbals. These high-quality brass cymbals are made in Germany and are sonically matched so they sound great together. They are even lathed for a more refined tonal character. The set includes 14" hi-hats, 16" crash cymbal, and a 20" ride cymbal.\n\nFeatures:\n\n* 100% poplar 6-ply/7.5mm shells\n* Precise bearing edges\n* 100% glued finishes\n* Original small lugs\n* Drum heads\n* Accu-tune bass drum hoops\n* Spur brackets\n* Tom holder\n* Tom brackets
+ROW_COUNT()
+-1
+
+
+*** Question B4 [3 Points] ***
+
+ROW_COUNT()
+1
+
+
+*** Question B5 [3 Points] ***
+
+ROW_COUNT()
+1
+
+
+*** Question B6 [1 Point] ***
+
+admin_id	email_address	password	first_name	last_name
+100	barryz@gmail.com	password1	Barry	Zimmer
+ROW_COUNT()
+-1
+
+
+*** Question B7 [4 Points] ***
+
+FULL_NAME	EMAIL_ADDRESS	ADMIN_PWD	CUSTOMER_PWD
+Barry,Zimmer	barryz@gmail.com	3f563	passw
+ROW_COUNT()
+-1
+
+
+*** Question B8 [1 Point] ***
+
+ROW_COUNT()
+1
+
+
+*** Question C1 [1 Point] ***
+
+*** Question C2 [2 Points] ***
+
+account_number	account_description
+591	Accounting
+ROW_COUNT()
+-1
+
+
+*** Question C3 [3 Point] ***
+
+vendor_id	vendor_name
+15	ASC Signs
+66	Ascom Hasler Mailing Systems
+93	AT&T
+67	Bill Jones
+30	Costco
+120	Dataforms/West
+104	Digital Dreamworks
+87	DMV Renewal
+89	Evans Executone Inc
+107	Franchise Tax Board
+58	Fresno Rack & Shelving Inc
+13	Golden Eagle Insurance Co
+83	Ingram
+16	Internal Revenue Service
+40	Nat Assoc of College Stores
+111	Net Asset, Llc
+33	Nielson
+3	Register of Copyrights
+115	Roadway Package System, Inc
+26	Small Press
+64	Texaco
+65	The Drawing Board
+60	The Mailers Guide Co
+7	Towne Advertiser's Mailing Svcs
+24	Zee Medical Service Co
+ROW_COUNT()
+-1
+
+
+*** Question C4 [4 Points] ***
+
+ROW_COUNT()
+-1
+
+
+***  Question C5 [3 Points] ***
+
+invoice_number	invoice_total	payment_total	credit_total
+989319-437	2765.36	2765.36	0.00
+989319-477	2184.11	2184.11	0.00
+367447	2433.00	2433.00	0.00
+989319-497	2312.20	2312.20	0.00
+989319-427	2115.81	2115.81	0.00
+587056	2184.50	2184.50	0.00
+989319-467	2318.03	2318.03	0.00
+989319-417	2051.59	2051.59	0.00
+ROW_COUNT()
+-1

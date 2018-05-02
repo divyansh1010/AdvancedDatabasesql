@@ -1,0 +1,154 @@
+Divyansh Sharma
+
+COMP 3002: Section 1
+
+Project: Task 1
+
+Current System Date
+2018-04-17 19:48:26
+Task 1, P1. [3 points]
+
+Database
+information_schema
+mysql
+performance_schema
+school
+sys
+Tables_in_mysql
+columns_priv
+db
+engine_cost
+event
+func
+general_log
+gtid_executed
+help_category
+help_keyword
+help_relation
+help_topic
+innodb_index_stats
+innodb_table_stats
+ndb_binlog_index
+plugin
+proc
+procs_priv
+proxies_priv
+server_cost
+servers
+slave_master_info
+slave_relay_log_info
+slave_worker_info
+slow_log
+tables_priv
+time_zone
+time_zone_leap_second
+time_zone_name
+time_zone_transition
+time_zone_transition_type
+user
+Task 1, P2. [3 points]
+
+Task 1, P3. [8 points]
+
+Task 1, P4. [2 points]
+
+Field	Type	Null	Key	Default	Extra
+StudentId	int(11)	NO	PRI	NULL	auto_increment
+FirstName	varchar(50)	NO		NULL	
+LastName	varchar(50)	NO		NULL	
+Email	varchar(255)	NO	UNI	NULL	
+CellPhone	varchar(12)	NO		NULL	
+Major	varchar(50)	YES		NULL	
+GPA	double	YES		NULL	
+StartDate	date	YES		NULL	
+Task 1, P5. [9 points]
+
+Task 1, P6. [2 points]
+
+Field	Type	Null	Key	Default	Extra
+StudentId	int(11)	NO	PRI	NULL	auto_increment
+FirstName	varchar(50)	NO		NULL	
+LastName	varchar(50)	NO		NULL	
+Email	varchar(255)	NO	UNI	NULL	
+CellPhone	varchar(12)	NO		NULL	
+Major	varchar(50)	YES		NULL	
+GPA	double	YES		NULL	
+StartDate	date	YES		NULL	
+Table	Non_unique	Key_name	Seq_in_index	Column_name	Collation	Cardinality	Sub_part	Packed	Null	Index_type	Comment	Index_comment
+student	0	PRIMARY	1	StudentId	A	3	NULL	NULL		BTREE		
+student	0	Email	1	Email	A	3	NULL	NULL		BTREE		
+Field	Type	Null	Key	Default	Extra
+StudentId	int(11)	NO	PRI	NULL	auto_increment
+FirstName	varchar(50)	NO		NULL	
+LastName	varchar(50)	NO		NULL	
+Email	varchar(255)	NO	UNI	NULL	
+CellPhone	varchar(12)	NO		NULL	
+Major	varchar(50)	YES		NULL	
+GPA	double	YES		NULL	
+StartDate	date	YES		NULL	
+Task 1, P7. [6 points]
+
+StudentId	FirstName	LastName	Email	CellPhone	Major	GPA	StartDate
+1	John	Doe	johndoe@smiley.edu	408-333-3456	CIS	2.8	2004-09-22
+2	Mary	Chin	mchin@qmail.com	408-204-1234	Biology	3.3	2003-06-22
+3	Sadish	Pamel	sadi@univ_ab.edu	415-204-1234	CIS	3.9	2003-06-22
+FirstName	LastName
+John	Doe
+Mary	Chin
+Sadish	Pamel
+FirstName	LastName	major
+John	Doe	CIS
+Mary	Chin	Biology
+Sadish	Pamel	CIS
+CellPhone	Email
+408-333-3456	johndoe@smiley.edu
+408-204-1234	mchin@qmail.com
+415-204-1234	sadi@univ_ab.edu
+major
+CIS
+Biology
+StudentId	FirstName	LastName	Email	CellPhone	Major	GPA	StartDate
+3	Sadish	Pamel	sadi@univ_ab.edu	415-204-1234	CIS	3.9	2003-06-22
+1	John	Doe	johndoe@smiley.edu	408-333-3456	CIS	2.8	2004-09-22
+Task 1, P8. [6 points]
+
+StudentId	FirstName	LastName	Email	CellPhone	Major	GPA	StartDate
+2	Mary	Chin	mchin@qmail.com	408-204-1234	Biology	3.3	2003-06-22
+3	Sadish	Pamel	sadi@univ_ab.edu	415-204-1234	CIS	3.9	2003-06-22
+StudentId	FirstName	LastName	Email	CellPhone	Major	GPA	StartDate
+2	Mary	Chin	mchin@qmail.com	408-204-1234	Biology	3.3	2003-06-22
+3	Sadish	Pamel	sadi@univ_ab.edu	415-204-1234	CIS	3.9	2003-06-22
+StudentId	FirstName	LastName	Email	CellPhone	Major	GPA	StartDate
+1	John	Doe	johndoe@smiley.edu	408-333-3456	CIS	2.8	2004-09-22
+2	Mary	Chin	mchin@qmail.com	408-204-1234	Biology	3.3	2003-06-22
+StudentId	FirstName	LastName	Email	CellPhone	Major	GPA	StartDate
+2	Mary	Chin	mchin@qmail.com	408-204-1234	Biology	3.3	2003-06-22
+3	Sadish	Pamel	sadi@univ_ab.edu	415-204-1234	CIS	3.9	2003-06-22
+FirstName	LastName
+Sadish	Pamel
+FirstName	Email
+Mary	mchin@qmail.com
+Task 1, P9. [6 points]
+
+StudentId	FirstName	LastName	Email	CellPhone	Major	GPA	StartDate
+4	Divyansh	Sharma	divyansh123@gmail.com	437-825-9564	Chemistry	3.8	2016-09-22
+StudentId	FirstName	LastName	Email	CellPhone	Major	GPA	StartDate
+2	Mary	Chin	mchin@qmail.com	408-204-1234	Biology	3.3	2003-06-22
+1	John	Doe	johndoe@smiley.edu	408-333-3456	CIS	2.8	2004-09-22
+3	Sadish	Pamel	sadi@univ_ab.edu	415-204-1234	CIS	3.9	2003-06-22
+4	Divyansh	Sharma	divyansh123@gmail.com	437-825-9564	Chemistry	3.8	2016-09-22
+StudentId	FirstName	LastName	Email	CellPhone	Major	GPA	StartDate
+3	Sadish	Pamel	sadi@univ_ab.edu	415-204-1234	CIS	3.9	2003-06-22
+4	Divyansh	Sharma	divyansh123@gmail.com	437-825-9564	Chemistry	3.8	2016-09-22
+2	Mary	Chin	mchin@qmail.com	408-204-1234	Biology	3.3	2003-06-22
+1	John	Doe	johndoe@smiley.edu	408-333-3456	CIS	2.8	2004-09-22
+Task 1, P10. [2 points]
+
+Task 1, P11. [3 points]
+
+Current System Date
+2018-04-17 19:48:26
+INSERT: rows affected
+4
+Average GPA of all students
+3.45

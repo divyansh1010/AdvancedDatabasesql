@@ -1,0 +1,4 @@
+host name: 200358605.database.windows.net
+database name: comp2007am
+Server admin login: divyanshsharma1998
+Server pass: Kenogawa10

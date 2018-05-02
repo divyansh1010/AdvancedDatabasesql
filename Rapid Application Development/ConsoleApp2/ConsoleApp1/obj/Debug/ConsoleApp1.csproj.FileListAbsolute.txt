@@ -1,0 +1,7 @@
+E:\Semester 3\Rapid Application Development\ConsoleApp2\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+E:\Semester 3\Rapid Application Development\ConsoleApp2\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+E:\Semester 3\Rapid Application Development\ConsoleApp2\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+E:\Semester 3\Rapid Application Development\ConsoleApp2\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+E:\Semester 3\Rapid Application Development\ConsoleApp2\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+E:\Semester 3\Rapid Application Development\ConsoleApp2\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+E:\Semester 3\Rapid Application Development\ConsoleApp2\ConsoleApp1\obj\Debug\ConsoleApp1.csprojResolveAssemblyReference.cache

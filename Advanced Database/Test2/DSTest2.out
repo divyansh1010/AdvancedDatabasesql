@@ -1,0 +1,138 @@
+your name
+
+COMP3002: Section 02
+
+Test 2
+
+Current System Date and Time
+2018-04-25 19:49:40
+
+
+*** Question A1 [1 Mark] ***
+
+
+
+*** Question A2 [2 Marks] ***
+
+order_id	order_date
+1	2015-03-28 09:40:28
+2	2015-03-28 11:23:20
+3	2015-03-29 09:44:58
+4	2015-03-30 15:22:31
+5	2015-03-31 05:43:11
+6	2015-03-31 18:37:22
+7	2015-04-01 23:11:12
+8	2015-04-02 11:26:38
+9	2015-04-03 12:22:31
+
+
+*** Question A3 [5 Marks] ***
+
+Average Shipping Amount	customer_id	last_name	Sales Orders
+13	1	Sherwood	2
+
+
+*** Question A4 [4 Marks] ***
+
+
+
+*** Question A5 [4 Marks] ***
+
+
+
+*** Question A6 [3 Marks] ***
+
+
+
+*** Question A7 [1 Mark] ***
+
+
+
+*** Question B1 [1 Mark] ***
+
+
+
+*** Question B2 [2 Marks] ***
+
+skill_id	skill_description
+1	VB .NET Programming
+2	COBOL Programming
+3	Java Programming
+4	Project Management
+5	Web Application Programming
+6	Mobile Web Programming
+7	Database Administration
+8	Windows 2003 Network Administration
+9	Windows 2008 Network Administration
+
+
+*** Question B3 [3 Marks] ***
+
+INSERT: rows affected. Negative testing so see DSTest4.err
+1
+
+
+*** Question B4 [1 Mark] ***
+
+INSERT: rows affected
+1
+
+
+*** Question B5 [2 Marks] ***
+
+skill_id	skill_description
+1	VB .NET Programming
+2	COBOL Programming
+3	Java Programming
+4	Project Management
+5	Web Application Programming
+6	Mobile Web Programming
+7	Database Administration
+8	Windows 2003 Network Administration
+9	Windows 2008 Network Administration
+88	NULL
+99	Mobile App Dev
+
+
+*** Question B6 [4 Marks] ***
+
+
+
+*** Question B7 [2 Marks] ***
+
+DELETE: rows affected. Negative testing so see DSTest2.err
+0
+
+
+*** Question C1 [1 Mark] ***
+
+
+
+*** Question C2 [1 Mark] ***
+
+
+
+*** Question C3 [4 Marks] ***
+
+
+
+*** Question C4 [3 Marks] ***
+
+
+
+*** Question C5 [4 Marks] ***
+
+e_id	e_date	description
+1	2018-03-31	Job offer
+2	2018-04-25	Final Exam Completed
+e_id	e_date	description	num_days
+1	2018-03-31	Job offer	0
+2	2018-04-25	Final Exam Completed	0
+
+
+*** Question C6 [1 Mark] ***
+
+
+
+*** Question C7 [1 Mark] ***
+

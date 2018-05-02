@@ -1,0 +1,6 @@
+E:\Semester 3\Rapid Application Development\ConsoleApp2\ConsoleApp8\bin\Debug\ConsoleApp8.exe.config
+E:\Semester 3\Rapid Application Development\ConsoleApp2\ConsoleApp8\bin\Debug\ConsoleApp8.exe
+E:\Semester 3\Rapid Application Development\ConsoleApp2\ConsoleApp8\bin\Debug\ConsoleApp8.pdb
+E:\Semester 3\Rapid Application Development\ConsoleApp2\ConsoleApp8\obj\Debug\Week6.csproj.CoreCompileInputs.cache
+E:\Semester 3\Rapid Application Development\ConsoleApp2\ConsoleApp8\obj\Debug\ConsoleApp8.exe
+E:\Semester 3\Rapid Application Development\ConsoleApp2\ConsoleApp8\obj\Debug\ConsoleApp8.pdb
